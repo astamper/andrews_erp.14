@@ -4,4 +4,5 @@ class Stock < ActiveRecord::Base
   belongs_to :component
   belongs_to :order_item
   has_many :components
+  has_one :unit
 end
