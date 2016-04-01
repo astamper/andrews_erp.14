@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :components
+
   resources :customers
 
   resources :order_items
