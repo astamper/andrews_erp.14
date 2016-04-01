@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @unit.name %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @unit.unit %>
+</p>
+
+<p>
+  <strong>Conversion:</strong>
+  <%= @unit.conversion %>
+</p>
+
+<p>
+  <strong>Component:</strong>
+  <%= @unit.component %>
+</p>
+
+<p>
+  <strong>Ingredient:</strong>
+  <%= @unit.ingredient %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @unit.stock %>
+</p>
+
+<p>
+  <strong>Order item:</strong>
+  <%= @unit.order_item %>
+</p>
+
+<%= link_to 'Edit', edit_unit_path(@unit) %> |
+<%= link_to 'Back', units_path %>
